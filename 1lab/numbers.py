@@ -5,4 +5,4 @@ d = float(input("Введите число d: "))
 
 result = (a + b) / (c + d)
 
-print(f"Результат: {result:.3}")
+print(f"Результат: {result:.2f}")

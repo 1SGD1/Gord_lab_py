@@ -1,15 +1,12 @@
-import math
-
-# Считываем стороны треугольника
 a = float(input("a: "))
 b = float(input("b: "))
-c = float(input("c: "))
 
-# Вычисляем полупериметр
-p = (a + b + c) / 2
+summ = a + b
+raz = a - b
+proiz = a * b
+chast = a / b
 
-# Вычисляем площадь по формуле Герона
-s = math.sqrt(p * (p - a) * (p - b) * (p - c))
-
-# Выводим результат 
-print(f"Площадь: {s:.3}")
+print(f"Сумма: {summ:.2f}")
+print(f"Разность: {raz:.2f}")
+print(f"Произведение: {proiz:.2f}")
+print(f"Частное: {chast:.2f}")
